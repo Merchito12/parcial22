@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Restaurante</title>
+</head>
+
+<body>
+
+    <header class="menu">
+        <h2>RESTAURANTS</h2>
+
+        <button class="categoria" id="Entradas">Entradas</button>
+        <button class="categoria" id="PlatosPrincipales">Platos Principales</button>
+        <button class="categoria" id="Bebidas">Bebidas</button>
+        <button class="categoria" id="Postres">Postres</button>
+    </header>
+    <main>
+        <div class="Food">
+            <h1>Te ofrecemos</h1>
+            <ul id="foodlList"></ul>
+        </div>
+        <div class="favoritos">
+            <h1>Carrito de compras</h1>
+            <section id="result">0</section>
+            <span>Eliminar</span>
+            <button id="eliminar"> <i class="fa-solid fa-trash"></i></button>
+            <br>
+            <button id="Enviar">Enviar</button>
+            <section id="favs"></section>
+        </div>
+        <script type="module" src="main.js"></script>
+    </main>
+</body>
+
+</html>
